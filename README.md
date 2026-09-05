@@ -49,3 +49,27 @@ JUnitによるテストとAPI検証例を含め、
 
 ## 詳細仕様
 MVPの詳細は[MVPスコープ](docs/mvp-scope.md)を参照してください。
+
+## ローカルでの実行方法
+
+### 1. コンパイル
+
+MavenでJavaコードをコンパイルします。
+
+```powershell
+mvn clean compile
+```
+
+### 2. 実行
+
+コンパイルしたJavaプログラムを実行します。
+
+```powershell
+java -cp target/classes com.ya1350.shipping.Main
+```
+
+以下が表示されれば正常に実行できています。
+
+```text
+Hello Shipping
+```
